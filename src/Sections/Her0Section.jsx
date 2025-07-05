@@ -1,4 +1,4 @@
-import banner from "../assets/deeproot-banner.jpg";
+import banner from "../assets/assets2.jpeg";
 
 import AnimatedText from "../components/AnimationText";
 import BlurEffect from "../components/BlurEffect";
@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 
 const Her0Section = () => {
   return (
-    <motion.main id="home" className="flex justify-center z-10 relative flex-col lg:scale-x-105 md:mt-[88px] mt-[70px] lg:mt-[93px]  items-center mb-20">
+    <motion.main id="home" className="flex justify-center z-10 relative flex-col  md:mt-[88px mt-[70px]  items-center mb-20">
       <div
-        className="w-full h-48 md:h-[500px] lg:h-[750px]  bg-cover  bg-center "
+        className="w-full h-72 md:h-[750px] lg:h-[1200px]  bg-cover  bg-center "
         style={{ backgroundImage: `url(${banner})` }}></div>
 
       {/* Heading */}
